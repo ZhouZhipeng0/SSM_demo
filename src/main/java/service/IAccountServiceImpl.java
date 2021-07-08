@@ -11,7 +11,7 @@ import dao.IAcountDaoImpl;
 
 
 public class IAccountServiceImpl implements IAccountService{
-    private IAcountDao iAccountDao = new IAcountDaoImpl();
+    private IAcountDao iAccountDao;
 
     @Override
     public void saveAccount() {

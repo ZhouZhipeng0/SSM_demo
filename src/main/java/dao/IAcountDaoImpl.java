@@ -10,6 +10,6 @@ package dao;
 public class IAcountDaoImpl implements IAcountDao {
     @Override
     public void saveAcount() {
-        System.out.println("保存了账户");
+            System.out.println("保存了账户");
     }
 }

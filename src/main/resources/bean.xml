@@ -8,12 +8,12 @@
         class属性：指定要创建对象的全限定类名 -->
 
     <!-- 配置service -->
-    <bean id="accountService"
-          class="service.IAccountServiceImpl">
+    <bean id="accountService" class="service.IAccountServiceImpl">
+        <property name="iAccountDao" ref=""></property>
     </bean>
-    <!-- 配置dao -->
-    <bean id="accountDao"
-          class="dao.IAcountDaoImpl">
+
+    <bean id="" class="dao.IAcountDao">
+
     </bean>
 </beans>
 

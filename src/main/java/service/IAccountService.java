@@ -1,5 +1,10 @@
 package service;
 
+import dao.IAcountDao;
+import domain.Account;
+
+import java.util.List;
+
 /**
  * @Author :13340
  * @Date :Created in 2021-07-07-23:34
@@ -7,5 +12,5 @@ package service;
  **/
 
 public interface IAccountService {
-    void saveAccount();
+    public List<Account> findAllAccount();
 }
